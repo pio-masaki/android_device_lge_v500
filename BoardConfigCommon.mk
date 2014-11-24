@@ -66,6 +66,7 @@ TARGET_USES_C2D_COMPOSITION := true
 OVERRIDE_RS_DRIVER := libRSDriver_adreno.so
 
 # Recovery
+DEVICE_RESOLUTION := 1920x1200
 BOARD_USE_CUSTOM_RECOVERY_FONT := \"roboto_23x41.h\"
 RECOVERY_FSTAB_VERSION = 2
 ENABLE_LOKI_RECOVERY := true
@@ -131,7 +132,7 @@ BOARD_SEPOLICY_UNION := \
         ueventd.te \
         wpa.te
 
-TARGET_RELEASETOOLS_EXTENSIONS := device/lge/v500/releasetools
+
 
 BOARD_USES_QC_TIME_SERVICES := true
 
