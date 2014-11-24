@@ -32,8 +32,6 @@ BOARD_FLASH_BLOCK_SIZE := 131072 # (BOARD_KERNEL_PAGESIZE * 64)
 
 TARGET_RECOVERY_FSTAB = device/lge/v500/fstab.gvar
 
-TARGET_RELEASETOOLS_EXTENSIONS := device/lge/v500/releasetools
-
 # Include the config file common to all variants of the LG G Pad
 include device/lge/v500/BoardConfigCommon.mk
 
